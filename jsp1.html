@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>脚本</title>
+</head>
+<body>
+    <h1>我的都一个脚本文件</h1>
+    <p id="do">
+        JavaScript 可以触发事件，就像按钮一样。</p>
+<script>
+    function myFunction()
+    {
+        document.getElementById("do").innerHTML="Hello,JavaScript！";
+    }
+     
+</script>
+<button type="button" onclick="myFunction()">点我</button>
+
+<h2>我的第一段</h2>
+ <p id="demo">
+     JavaScript 可以改变字体颜色。
+ </p>
+ <script>
+      function myFunction(){
+            x=document.getElementById("demo")//找到元素
+            x.style.color="#ff0000";          //改变样式
+      }
+ </script>
+  <button type="button" onclick="myFunction()">点击这里</button>
+</body>
+</html>
